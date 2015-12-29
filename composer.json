@@ -1,0 +1,41 @@
+{
+    "name": "ironedge/frenzy-framework",
+    "description": "A PHP Framework which focuses on simplicity and automation of common tasks so you can spend your time building amazing apps.",
+    "keywords": ["frenzy", "framework"],
+    "homepage": "http://www.ironedgesoftware.com",
+    "type": "frenzy-application",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":         "Gustavo Falco",
+            "email":        "gustavo.falco@intraway.com",
+            "homepage":     "http://www.ironedgesoftware.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ironedgesoftware/frenzy-framework/issues"
+    },
+    "require": {
+        "php":                              "^7.0",
+        "ironedge/kernel":                  "^1.0",
+        "ironedge/cli":                     "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit":                  "^4.5 || ^5.0.5",
+        "phpunit/phpunit-mock-objects":     "2.3.0 || ^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "IronEdge\\FrenzyFramework\\": "src"
+        }
+    },
+    "minimum-stability":                "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master":                   "1.0-dev"
+        }
+    },
+    "config": {
+        "bin-dir":                          "bin"
+    }
+}

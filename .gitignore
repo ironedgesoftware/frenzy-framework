@@ -1,0 +1,7 @@
+/.idea
+/var/cache/*
+/var/logs/*
+/var/tmp/*
+/vendor/
+/bin/*
+/web/*
