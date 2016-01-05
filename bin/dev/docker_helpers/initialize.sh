@@ -14,7 +14,7 @@ echo ""
 
 # Install dev tools
 
-apt-get install -y multitail;
+apt-get install -y multitail graphviz;
 
 echo ""
 echo "Installing PHP XDebug"
